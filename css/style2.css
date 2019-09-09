@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .futer{
+  background-color: rgba(6, 47, 80, 0.8);
+  color:white;
+ }
+ .futer p{
+  
+    margin-bottom: 0rem;
+ }
+ .futer ul li a {
+      color: white;
+      font-size: 20px;
+  }
+  #pomagac img {
+    width: 100%;
+  }
+nav{
+  box-shadow: none !important;
+}
+nav .sidenav-trigger {
+  float: right;
+}
+nav ul a, nav .brand-logo {
+  color: white;
+  font-size: 20px !important;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none !important;
+}
+/*@media only screen and (max-width: 992px){
+  nav .brand-logo {
+      left: 0%;
+  }
+}*/
+.pad{
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+}
+.modal-content{
+  color:black;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.transparent.scrolled{
+  background-color:rgba(0, 0, 0, 0.7);
+}
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

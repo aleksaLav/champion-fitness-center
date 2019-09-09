@@ -1,0 +1,317 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  list-style-type: none;
+}
+
+.navigacija {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.navigacija .boja {
+  color: white;
+  font-size: 20px;
+}
+
+.navigacija .crna {
+  color: black;
+}
+
+.navigacija .navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navigacija span {
+  color: white;
+}
+
+.slide .w-100 {
+  width: 100% !important;
+  height: 70vh;
+}
+
+/*.visina{
+    height:600px;
+}*/
+.img-bg {
+  position: relative;
+  height: 220vh;
+  background-image: url(../img/active-ballachulish-black-and-white-1614986.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-bg .transparent {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  position: absolute;
+  top: 100vh;
+}
+
+.img-bg .pt-8 {
+  padding-top: 30vh;
+}
+
+.img-bg .pb-8 {
+  padding-bottom: 30vh;
+}
+
+@media (max-width: 991px) {
+  .img-bg {
+    height: 240vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 978px) {
+  .img-bg {
+    height: 250vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-bg {
+    height: 280vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 697px) {
+  .img-bg {
+    height: 280vh !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 557px) {
+  .transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute !important;
+    top: 100vh !important;
+  }
+  .img-bg {
+    height: 300vh !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+.mat-icon {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0px 30px 0px;
+}
+
+/*kontakt*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  table {
+    font-size: 12px;
+  }
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+input[type=email], select, textarea {
+  width: 100% !important;
+}
+
+/*kontakt*/
+form input[type=submit] {
+  background-color: rgba(6, 47, 80, 0.8);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/*futer*/
+.futer {
+  background-color: rgba(6, 47, 80, 0.8);
+  color: white;
+  /* @media (min-width: 576px){
+        .col-sm-12 {  
+            flex:none !important; 
+            max-width: 100%;
+        }
+    }*/
+}
+
+.futer ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+.futer .modal {
+  color: black;
+}
+
+.futer .col-lg-7 p {
+  margin: 0em;
+}
+
+.pozslika {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+  /*position: relative;*/
+  background-image: url(../img/barbell-body-brawny-841135.png);
+}
+
+.pozslika h3 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap;
+}
+
+.pozslika .btn-outline-info {
+  border: 3px solid;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.pozslika .btn-outline-info:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pozslika .img-fluid {
+  max-width: 50vh;
+  height: auto;
+}
+
+.pozslika .pb-7 {
+  padding: 20vh 0vh 10vh 0vh;
+}
+
+.pozslika .slike {
+  padding-top: 10vh;
+}
+
+@media (max-width: 1176px) {
+  .pozslika {
+    height: 140vh !important;
+  }
+  .pozslika .col-lg-4, .pozslika .col-md-6 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pozslika {
+    height: 175vh !important;
+  }
+  .pozslika .col-lg-4, .pozslika .col-md-6 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 70% !important;
+            flex: 0 0 70% !important;
+    max-width: 70% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .pozslika {
+    height: 180vh !important;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pozslika {
+    height: 170vh !important;
+  }
+  .pozslika .col-md-6, .pozslika .col-sm-12 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .pozslika .img-fluid {
+    max-width: 40vh;
+    height: auto;
+  }
+}
+
+/*galerija*/
+.gallery {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.gallery .modal-footer {
+  border-top: none !important;
+}
+
+.gallery img {
+  -webkit-transition: 1.5s !important;
+  transition: 1.5s !important;
+}
+
+.gallery img:hover {
+  width: 200% !important;
+  z-index: 3 !important;
+}
+
+.sirina {
+  width: 100vh;
+}
+
+/*proba */
+.pozgalerija {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 70vh;
+  background-image: url(../img/flying-kick.png);
+}
+
+.pozgalerija h3, .pozgalerija h1 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
