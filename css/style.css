@@ -3,6 +3,11 @@
   padding: 0px;
   scroll-behavior: smooth;
   list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .navigacija {
@@ -251,6 +256,9 @@ form input[type=submit]:hover {
   }
   body {
     font-size: 12px;
+  }
+  body h1 {
+    font-size: 3rem !important;
   }
 }
 

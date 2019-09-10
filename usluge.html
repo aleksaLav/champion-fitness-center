@@ -13,11 +13,13 @@
    <!-- CSS  -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
-
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-   <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   
    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <!--font-->
+   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
  </head>
  <body>
    <div class="col xl12 l12 s12">
@@ -30,7 +32,6 @@
                     <li><a href="galerija.html">GALERIJA</a></li>
                     <li><a href="kontakt.html">KONTAKT</a></li>
                   </ul>
-            
                   <ul id="nav-mobile" class="sidenav">
                     <li><a href="index.html">POČETNA</a></li>
                     <li><a href="usluge.html">USLUGE</a></li>
@@ -42,23 +43,18 @@
               </nav>
           </div>
 
-   <div id="index-banner" class="parallax-container  valign-wrapper">
-     <div class="section no-pad-bot  valign-wrapper">
-       <div class="container valign-wrapper d-flex justify-content-center">
-         <h1 class="header center text-lighten-2">USLUGE I PROGRAMI</h1> 
-       </div>
-     </div>
-     <div class="parallax"><img src="img/sports-gym.png" alt="Unsplashed background img 1"></div>
+   <div class="bg-usluge valign-wrapper d-flex justify-content-center">
+         <h1 class="center-align white-text ">USLUGE I PROGRAMI</h1> 
    </div>
  
  
    <div class="container">
      <div class="section">
-       <div class="row pad">
+       <div class="row pad col s12 m12 l12 xl12">
         <table class="striped">
           <thead>
             <tr>
-                <th>SAMOSTALNO/GRUPNO/PERSONALNO</th>
+                <th>SAMOSTALNO/ GRUPNO/ PERSONALNO</th>
                 <th>PROGRAMI</th>
                 <th>CENE</th>
             </tr>
@@ -118,14 +114,14 @@
      </div>
    </div>
  
-   <div class="container-fluid futer .boja">
-        <div class="col xl12 d-flex justify-content-center">
-          <div class="col xl10 d-flex justify-content-center align-items-center flex-wrap pb-3 pt-4">
-              <div class="col xl6 l6 s12 d-flex justify-content-center align-items-center flex-wrap mb-4">
-                <div class="col xl7 l7 m12 s12 d-flex justify-content-center align-items-center">
+   <div class="container-fluid futer boja">
+        <div class="col xl12 m12 l12 s12 d-flex justify-content-center">
+          <div class="col xl10 l10 m10 s12 d-flex justify-content-center align-items-center flex-wrap pb-3 pt-4">
+              <div class="col xl6 l6 m12 s12 d-flex justify-content-center align-items-center flex-wrap mb-4">
+                <div class="col xl7 l12 m12 s12 d-flex justify-content-center align-items-center">
                   <p class="text-right">Copyright &COPY; 2019</p>
                 </div>
-                <div class="col xl5 l5 m12 s12 d-flex justify-content-center align-items-center">
+                <div class="col xl5 l12 m12 s12 d-flex justify-content-center align-items-center">
                             <!-- Modal Trigger -->
   <a class="waves-effect waves-light btn modal-trigger modalcina" href="#modal1">About me</a>
 
@@ -150,12 +146,12 @@
           </div>
                 </div>
               </div>
-              <div class="col xl6 l6 m12 s12 d-flex align-items-center">
-                  <ul class="col l12 d-flex flex-row justify-content-around align-items-center">
-                      <li><a href="https://www.facebook.com/Aki.sto99" target="_blank"><i class="fab fa-facebook-f mr-2"></i></a></li>
-                      <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter mr-2"></i></a></li>
-                      <li><a href="http://www.google.com" target="_blank"><i class="fab fa-google-plus-g mr-2 "></i></a></li>
-                      <li><a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p mr-2"></i></a></li>
+              <div class="col xl4 l5 m12 s12 d-flex align-items-center">
+                  <ul class="col xl12 l12 m12 s12 d-flex flex-row justify-content-around align-items-center">
+                      <li><a href="https://www.facebook.com/Aki.sto99" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="http://www.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
                       <li><a href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                   </ul>
               </div>
@@ -172,11 +168,19 @@
    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
    <script src="js/materialize.js"></script>
    <script src="js/init.js"></script>
-   <script>
-        $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() >250);
-        });
+  <script>
+                $(document).ready(function(){
+                     $(window).scroll(function(){
+                       if($(window).scrollTop()>250){
+                         $('nav').addClass('blacki');
+                       }else{
+                         $('nav').removeClass('blacki');
+                       }
+                     });
+                });
+             
     </script>
+
     <script>
          document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.modal');
